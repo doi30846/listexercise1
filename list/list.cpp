@@ -1,6 +1,6 @@
 #include <iostream>
 #include "list.h"
-using namespace std;
+using namespace std
 
 List::~List() {
 	for(Node *p; !isEmpty(); ) {
